@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active-link{
+    text-decoration: none;
+}
+
+header{
+    display: grid;
+    /* flex-direction: column; */
+}
+
+.wrapper{
+    display: grid;    
+    width: 950px;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.header-background{
+    background-image: url(/images/header-background.png);
+    /* margin-top: -20px; */
+    height: 130px;    
+}
+
+.header-background p {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    margin: 38px 0 0 128px;
+}
+
+.horizontal-menu{
+    background-image: url(/images/horizontal-menu-background.png);
+    height: 34px;
+}
+
+.header{
+    display: flex;
+    /* background-color: white; */
+    height: 81px;
+    /* padding: 25px 25px 0 25px; */
+    background-image: url(/images/header-white-background.png);
+    /* z-index: 1000; */
+    /* margin-bottom: 0px; */
+}
+
+.header img{
+    width: 174px;
+    height: 44px;
+    margin: 25px auto 0 25px;
+}
+
+.button-group{
+    display: flex;
+    /* background-color: teal; */
+    margin: 25px 25px 25px 0;
+}
+.button-group a{
+    line-height: 14px;
+    color: #004168;
+}
+
+.button-group .link-separator{
+    margin: 0 10px 0 10px;
+    color: #00A0D6;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.left-menu{
+    width: 222px;
+}
+
+.left-menu p{
+    /* line-height: 30px; */
+    /* text-align: center; */
+    font-size: 14px;
+    padding: 8px 0 8px 25px;
+    background-color: #7472B5;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    height: 100px;
+    background-color: #7472B4;
+}
+
+.footer .text-block{
+    font-size: 11px;
+    line-height: 13px;
+    height: 39px;
+    /* background-color: violet; */
+    font-family: Tahoma;
+    font-weight: regular;
+    margin: 22px auto 0 25px;
+    color: white;
+}
+
+.footer .link-separator{
+    float: none;
+    color: #A3A8D7;
+    margin: 0 5px 0 5px;
+}
+
+.footer .contacts{
+    display: flex;
+}
+
+.footer img{
+    width: 127px;
+    height: 33px;
+    margin: 27px 24px 0 0;
+}

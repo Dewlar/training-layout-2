@@ -31,7 +31,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     height: 183px;
-    background-image: url(/images/header.png);
+    background-image: url(images/header.png);
 }
 
 .header img{
@@ -75,7 +75,7 @@ header{
 /* horizontal-menu | horizontal-menu | horizontal-menu | horizontal-menu | */
 .horizontal-menu{
     margin-top: 1px;
-    background-image: url(/images/horizontal-menu.png);
+    background-image: url(images/horizontal-menu.png);
     height: 34px;
 }
 
@@ -104,7 +104,7 @@ header{
 
 .horizontal-menu a:hover{
     color: #FFFFFF;
-    background-image: url(/images/menu-button-hover.png);
+    background-image: url(images/menu-button-hover.png);
 }
 
 .dropdown{
@@ -255,14 +255,14 @@ header{
 
 .left-menu li{    
     display: flex;
-    background-image: url(/images/BULLET_1.png);
+    background-image: url(images/BULLET_1.png);
     background-repeat: no-repeat;
     margin: 7px 0 0 7px;
 }
 
 .left-menu li:hover{    
     display: flex;
-    background-image: url(/images/BULLET_2.png);
+    background-image: url(images/BULLET_2.png);
     background-repeat: no-repeat;
     margin: 7px 0 0 7px;
 }
